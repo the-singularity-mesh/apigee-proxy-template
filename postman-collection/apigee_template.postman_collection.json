@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "729eb4d2-665e-47f2-8bff-11485e8bd90e",
+		"name": "Apigee Template",
+		"description": "The template helps develop production-ready proxy with the below functionalities:\n\nIt does the authorisation check.\nIt checks if the backend is under maintenance and throws a checked exception.\nIt validates the quota. Quota is configured at the Apigee app level and is referenced in the proxy.\nIt prevents/blocks DDOS attack/Rogue client/performance testing with Spike Arrest policy\nIt generates a correlation-id which is send to the target server for an end-to-0end tracing\nIt valdates and sanitizes the incoming request and the CORS headers.\nIt logs metadata of the API to SIEM systems such as Loggly in this case\nIt prevents the authentication header to reach the backend that is sent for proxy validation.\nIt throws the a 404 method not found/implemented exception if none of the proxy path match\nIt reduces the OWASP Top 10 Web Application Security Risks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. Get Products - http 200 - Ok",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1. Get Products - http 200 - Ok Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. Get Products With Incorrect x-api-key - 401 - Unauthorized",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3. a.Get Products With Incorrect Origin - 403 - Forbidden",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3.b.Get Products with Origin header absent - http 400 - Bad Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4. Get Products - Generates Co-relation-Id in Apigee & Sent it to backend - http 200",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5. Get Products - http 404 - Incorrect Resource Path",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "6. Get Products - Log to SIEM Tool - Loggly",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "7. Get Products - Checks if backend under maintenance - http 503 - Service Unavailable",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create KVM",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
