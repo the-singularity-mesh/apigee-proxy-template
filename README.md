@@ -65,7 +65,7 @@ Check out our [roadmap](ROADMAP.md) to see what we have planned moving forward.
 Quick-Start - Install Script
 --------------
 
-The `master_deploy_script.sh` script provides a convenient way to download the proxy and and add it to your own apigee org.
+The `master_deploy_script.sh` under the master-script folder provides a convenient way to download the proxy and and add it to your own apigee org.
 
 To download & deploy the proxy , checkout the code & move to the master-script folder and run:
 
@@ -77,6 +77,10 @@ The script executes & performs the below
 1. Creates the KVM config in the test env of the apigee org required by the template
 1. Downloads & bundles the proxy template code from git repo and deploys it to the apigee org
 1. Creates a product, developer and finally creates an app and tags the product & developer to this new created app
+
+Steps to make the template functional in your own Apigee org
+--------------
+
 
 Pre-requisites
 --------
