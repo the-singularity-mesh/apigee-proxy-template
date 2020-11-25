@@ -337,8 +337,7 @@
           "message": {
             "type": "string",
             "pattern": ".+",
-            "description": "human-readable summary of the problem",
-            "example": "Resource /apt-rmstransform/regos/15262P1 not found"
+            "description": "human-readable summary of the problem"
           },
           "source": {
             "type": "string",
