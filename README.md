@@ -41,7 +41,7 @@ The template helps develop production-ready proxy with the below functionalities
 1. It throws the a 404 method not found/implemented exception if none of the proxy path match
 1. It reduces the OWASP Top 10 Web Application Security Risks
 
-<p align="center"><img src="https://github.com/the-singularity-mesh/apigee-proxy-template/images/Apigee_open_source_part_1.png"></p>
+<p align="center"><img src="images/Apigee_open_source_part_1.png"></p>
 
 Outcome/Benefit of using this template ?
 --------------------
