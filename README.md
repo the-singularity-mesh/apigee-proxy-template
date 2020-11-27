@@ -80,7 +80,7 @@ The script executes & performs the below
 
 Steps to make the template functional in your own Apigee org
 --------------
-
+Refer to Steps_to_make_template_functional.docx in the repo
 
 Pre-requisites
 --------
