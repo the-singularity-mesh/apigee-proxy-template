@@ -11,7 +11,9 @@ Key features:-
 OWASP top 10 compliance
  - Flexible template enabling customisation
  - Predefined Spike arrest, throttling, quota and authentication capability
- - Includes logging to splunk or Elastic
+ - Includes logging to SIEM tools such as splunk, elastic or loggly
+ 
+ <p align="center"><img src="images/Apigee_open_source_part_1.png"></p>
  
 This template has saved our engineers 30-40% development time and we are delighted to support the community by making this capability available to others.
 Further, Engineers who do not have an Apigee engineering background can also leverage the template. This will get your engineers shipping production code quickly and reduce their learning time.
@@ -40,8 +42,6 @@ The template helps develop production-ready proxy with the below functionalities
 1. It prevents the authentication header to reach the backend that is sent for proxy validation.
 1. It throws the a 404 method not found/implemented exception if none of the proxy path match
 1. It reduces the OWASP Top 10 Web Application Security Risks
-
-<p align="center"><img src="images/Apigee_open_source_part_1.png"></p>
 
 Outcome/Benefit of using this template ?
 --------------------
