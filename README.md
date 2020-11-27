@@ -34,7 +34,7 @@ The template helps develop production-ready proxy with the below functionalities
 1. It checks if the backend is under maintenance and throws a checked exception.
 1. It validates the quota. Quota is configured at the Apigee app level and is referenced in the proxy.
 1. It prevents/blocks DDOS attack/Rogue client/performance testing  with Spike Arrest policy
-1. It generates a correlation-id which is send to the target server for an end-to-0end tracing
+1. It generates a correlation-id which is send to the target server for an end-to-end tracing
 1. It valdates and sanitizes the incoming request and the CORS headers. 
 1. It logs metadata of the API to SIEM systems such as Loggly in this case
 1. It prevents the authentication header to reach the backend that is sent for proxy validation.
