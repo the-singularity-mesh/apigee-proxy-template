@@ -96,4 +96,4 @@ Note
 Issues
 --------
 
-Any issues in this can be reported by sending an email to info@the-singularity.com.au. Please do not file issues about security.
+Any issues in this can be reported by sending an email to info@the-singularity.com.au.
